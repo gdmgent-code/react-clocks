@@ -1,0 +1,16 @@
+.binary-clock {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-items: flex-start;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.led-strip {
+  margin: calc(var(--spacer) / 4);
+}
+
+.led {
+  margin: calc(var(--spacer) / 8) 0;
+}

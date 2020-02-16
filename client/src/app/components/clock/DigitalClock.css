@@ -1,0 +1,29 @@
+.clock__strip {
+  font-size: 3rem;
+  font-weight: 900;
+
+  background: var(--color-black);
+  color: var(--color-white);
+  padding: var(--gutter) calc(var(--gutter) * 2);
+}
+.clock__strip--h1 {
+  font-size: 4rem;
+}
+.clock__strip--h2 {
+  font-size: 6rem;
+  background: var(--color-green);
+}
+.clock__strip--m1 {
+  font-size: 5rem;
+}
+.clock__strip--m2 {
+  font-size: 6rem;
+  background: var(--color-orange);
+}
+.clock__strip--s1 {
+  font-size: 3rem;
+}
+.clock__strip--s2 {
+  font-size: 5rem;
+  background: var(--color-purple);
+}
